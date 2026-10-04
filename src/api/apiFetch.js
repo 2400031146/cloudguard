@@ -1,5 +1,5 @@
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:8080/api";
+  import.meta.env.VITE_API_BASE_URL || "https://cloudguard-backend-y40y.onrender.com";
 
 export async function apiFetch(endpoint, options = {}) {
   const headers = new Headers(options.headers || {});

@@ -13,7 +13,7 @@ import {
   Users,
 } from "lucide-react";
 
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "https://cloudguard-backend-y40y.onrender.com/api";
 
 
 async function getJson(path) {

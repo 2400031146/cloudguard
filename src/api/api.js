@@ -1,5 +1,5 @@
 
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "https://cloudguard-backend-y40y.onrender.com/api";
 
 export async function checkBackendHealth() {
   const response = await fetch(`${API_BASE_URL}/health`);

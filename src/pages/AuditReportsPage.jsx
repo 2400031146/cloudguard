@@ -9,7 +9,7 @@ import {
   LoaderCircle,
 } from "lucide-react";
 
-const API = "http://localhost:8080/api";
+const API = "https://cloudguard-backend-y40y.onrender.com/api";
 
 function getPolicies(data) {
   if (Array.isArray(data)) return data;

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { apiFetch } from "./apiFetch";
-const API = "http://localhost:8080/api/scp-policies";
+const API = "https://cloudguard-backend-y40y.onrender.com/api/scp-policies";
 
 const styles = {
   page: {
